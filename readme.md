@@ -26,13 +26,14 @@
 - @SpringBootApplication 안에 dispatcher-servlet 내장
 - <p>2023-11-24T14:33:42.766+09:00  INFO 15400 --- [nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'</p>
 
+## Spring boot Running Process(스프링 부트 처리 흐름)
 > <h3>Client = Web Browser</h3>
 - Server => Dispatcher
 - 서버에 자바 기본엔진을 전달하는 역할
 - Dispatcher => Controller
 
 > <h3>Controller</h3>
-- HandlerMappin(@GetMapping(URL)) => URL Mapping =>
+- HandlerMapping(@GetMapping(URL)) => URL Mapping =>
 - 호출된 URL Mapping의 하단부의 해당 메소드 => 서비스 로직 호출 =>
 - Reposiotory(Mapper) 호출 => DTO로 결과 반환 =>
 - 반환된 정보(DTO)를 Model에 넣기 => View로 포워딩
@@ -51,3 +52,15 @@
   - DTO(View) - Controller로 가는 역할
   - Entity(실제 테이블과 같은 객체 - Table Mapping) - Repository로 가는 역할
   - @Builder가 DTO, Entity의 역할을 진행
+
+
+> Datatable.js를 사용할 경우 SQL은 1번만 사용
+
+> 자바 프로그래밍 디자인 패턴
+- GoF(Gang of Four) 패턴 : 에릭 감마, 리차드 헬름, 랄프 존슨, 존 블라시디스이가 모여 자바의 프로그래밍 기법을 구체화 하고, 체계화 한 패턴
+- 생성(Creational) 패턴 : 객체를 효율적으로 생성하기 위한 패턴
+  - 생성자
+- 구조(Structural) 패턴 : 하나 이상의 클래스나 인터페이스를 혼합하여 더 큰 구조로 만들어 주는 패턴
+  - 필드
+- 행위(Behavioral) 패턴 : 객체가 가지는 메소드를 합치거나 분리하기 위한 패턴
+  - 메소드
