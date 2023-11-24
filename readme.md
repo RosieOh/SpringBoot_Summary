@@ -60,6 +60,11 @@
 - GoF(Gang of Four) 패턴 : 에릭 감마, 리차드 헬름, 랄프 존슨, 존 블라시디스이가 모여 자바의 프로그래밍 기법을 구체화 하고, 체계화 한 패턴
 - 생성(Creational) 패턴 : 객체를 효율적으로 생성하기 위한 패턴
   - 생성자
+    - Abstract Factory
+    - Factory Method
+    - Build
+    - prototype
+    - Singleton
 - 구조(Structural) 패턴 : 하나 이상의 클래스나 인터페이스를 혼합하여 더 큰 구조로 만들어 주는 패턴
   - 필드
 - 행위(Behavioral) 패턴 : 객체가 가지는 메소드를 합치거나 분리하기 위한 패턴
