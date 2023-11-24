@@ -14,4 +14,4 @@
 
 > RESTful API : REST(Representaional State Transfer) API(Application Programming Interface)
 - 전송 받은 데이터를 상태에 따라 재표현 할 수 있는
-- 특정 언어와 관계없이 해당 요구사항만 갖추면 활용할 수 있도록 한 공통 통로
+- 특정 언어와 관계없이 해당 요구사항만 갖추면 활용할 수 있도록 한 공통 연결 통로
